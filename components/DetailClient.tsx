@@ -44,10 +44,10 @@ export default function DetailClient() {
         </div>
         <div className="mt-2 text-sm text-gray-600">ID: {car.id}</div>
         <div className="mt-4 flex gap-3">
-          <Link href="/" className="rounded-xl border px-3 py-2 text-sm hover:bg-gray-50">
+          <Link href="../" className="rounded-xl border px-3 py-2 text-sm hover:bg-gray-50">
             검색으로
           </Link>
-          <Link href="/dashboard/" className="rounded-xl border px-3 py-2 text-sm hover:bg-gray-50">
+          <Link href="../dashboard/" className="rounded-xl border px-3 py-2 text-sm hover:bg-gray-50">
             대시보드
           </Link>
         </div>

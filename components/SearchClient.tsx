@@ -69,7 +69,7 @@ export default function SearchClient({ cars }: Props) {
         <ul className="divide-y">
           {filtered.slice(0, 30).map((c) => (
             <li key={c.id} className="px-3 py-2 hover:bg-gray-50">
-              <Link href={`/detail/?id=${encodeURIComponent(c.id)}`} className="grid grid-cols-12 items-center text-sm">
+              <Link href={`detail/?id=${encodeURIComponent(c.id)}`} className="grid grid-cols-12 items-center text-sm">
                 <div className="col-span-4 font-medium">{c.brand} {c.model}</div>
                 <div className="col-span-2 text-gray-700">{c.year}</div>
                 <div className="col-span-3 text-gray-700">{c.price.toLocaleString()}</div>

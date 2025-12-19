@@ -1,0 +1,6 @@
+id,brand,model,year,price,mileage,fuelType,transmission
+1,BMW,3 Series,2019,28990,42000,diesel,automatic
+2,Audi,A4,2018,23990,51000,petrol,automatic
+3,Hyundai,Avante,2021,17900,21000,petrol,automatic
+4,Kia,K5,2020,19900,33000,petrol,automatic
+5,Tesla,Model 3,2022,37900,12000,electric,automatic
